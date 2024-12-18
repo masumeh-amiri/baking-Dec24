@@ -27,13 +27,9 @@ body {
   border-radius: 18% 22% 22% 7% / 30% 84% 16% 70%;
   transition: border-radius 500ms ease-in-out;
 }
-/* .blob-1 :hover{
-    border-radius: 55% 45% 38% 62% / 69% 84% 16% 31% ;
-} */
 
 .blob-2 {
     border-radius:92% 8% 22% 8% / 13% 84% 16% 87% ;
-    transition: border-radius 500ms ease-in-out;
 }
 
 .blob-3 {
@@ -46,5 +42,9 @@ body {
 
 .blob-5 {
     border-radius:17% 83% 14% 86% / 66% 18% 82% 34% ;
+}
+
+.blob-6{
+    border-radius:50% 50% 88% 12% / 14% 58% 42% 86%  ;
 }
 
