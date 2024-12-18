@@ -1,0 +1,50 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: rgb(138, 195, 205);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.list-group-item {
+    border: none;
+    background-color: transparent;
+}
+
+.blob-image {
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+/* Unique Blob Shapes */
+.blob-1 {
+  border-radius: 18% 22% 22% 7% / 30% 84% 16% 70%;
+  transition: border-radius 500ms ease-in-out;
+}
+/* .blob-1 :hover{
+    border-radius: 55% 45% 38% 62% / 69% 84% 16% 31% ;
+} */
+
+.blob-2 {
+    border-radius:92% 8% 22% 8% / 13% 84% 16% 87% ;
+    transition: border-radius 500ms ease-in-out;
+}
+
+.blob-3 {
+    border-radius:46% 54% 17% 83% / 81% 20% 80% 19%  ;
+}
+
+.blob-4 {
+    border-radius:33% 67% 17% 83% / 65% 33% 67% 35% ;
+}
+
+.blob-5 {
+    border-radius:17% 83% 14% 86% / 66% 18% 82% 34% ;
+}
+
